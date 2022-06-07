@@ -6,13 +6,16 @@
 //        in3050(40, 50) → true
 
 
-public class in3050 {
+public class In3050 {
+    public In3050(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
+
     private int a;
     private int b;
 
-    public in3050(int a, int b) {
-        this.a = a;
-        this.b = b;
+
     }
 
     public boolean in3050(int a, int b) {
